@@ -1,0 +1,25 @@
+---
+import '../styles/global.css';
+const { title = 'Jump Rope Guide' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">{title}</h1>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">Built with Astro • Hosted on GitHub Pages</div>
+    </footer>
+  </body>
+</html>

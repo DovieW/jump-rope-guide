@@ -1,0 +1,15 @@
+{
+  "name": "jump-rope-guide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^4.0.0",
+    "@types/node": "^18.0.0",
+    "tailwindcss": "^3.0.0"
+  }
+}
